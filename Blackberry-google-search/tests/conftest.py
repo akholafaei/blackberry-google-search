@@ -12,7 +12,7 @@ def setup(request):
     """ Setup and Tear down the driver"""
 
 
-    driver = webdriver.Chrome(executable_path="C:\\Users\\Solmaz\\Desktop\\chromedriver.exe")
+    driver = webdriver.Chrome(executable_path="C:\\Users\\Ali\\Desktop\\chromedriver.exe")
     driver.implicitly_wait(0.5)
     # launch URL
     driver.get("https://www.google.com/")
